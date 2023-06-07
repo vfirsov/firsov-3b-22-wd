@@ -1,6 +1,6 @@
-lst = ['apple', 'orange', 'banana', 'pineapple', 'grape']
+lst = [5, 1, 10, 3, 7]
 
-lst.sort(key=len, reverse=True)
+lst.sort()
 
-print(lst)
+print(tuple(lst))
 

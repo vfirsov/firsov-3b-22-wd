@@ -1,6 +1,6 @@
 lst = ['apple', 'orange', 'banana', 'pineapple', 'grape']
 
-lst.sort(reverse=True)
+lst.sort(key=len, reverse=True)
 
 print(lst)
 

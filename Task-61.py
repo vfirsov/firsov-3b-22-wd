@@ -1,8 +1,6 @@
-import math
+lst = ['apple', 'orange', 'banana', 'pineapple', 'grape']
 
-pointers = [(1, 2), (3, 4), (-1, 5), (6, -3)]
+lst.sort(reverse=True)
 
-pointers.sort(key=lambda a: math.dist((0, a[0]), (0, a[1])))
-
-print(pointers)
+print(lst)
 
